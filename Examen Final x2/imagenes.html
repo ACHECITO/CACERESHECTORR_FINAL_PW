@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Galería de Imágenes</h1>
+
+        <section id="imagenes-section">
+            <div id="gallery" class="gallery-container"></div>
+            <button onclick="fetchImagesFromUnsplash()">Recargar Imágenes</button>
+            <br><br>
+            <!-- Botón para regresar a la página anterior -->
+            <button onclick="window.location.href='pagina2.html'">Volver a Página Anterior</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
